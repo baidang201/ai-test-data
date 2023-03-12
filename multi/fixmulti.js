@@ -11,7 +11,7 @@ for (let index = 1; index < 3; index++) {
   for (let j = 0; j < newtxs.length; j++) {
     const e = newtxs[j];
     const x ={
-      blockhight: e.block_num,
+      blockhigh: e.block_num,
       hash: e.hash,
       timestamp: e.block_timestamp,
       module: e.module,
